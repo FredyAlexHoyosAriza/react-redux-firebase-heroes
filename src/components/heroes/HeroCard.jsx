@@ -6,7 +6,7 @@ const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, chara
         // Cada tarjeta sera un col; esto ajusta automaticamente los anchos
         <div className="col">
             <div className="card">
-                <img src={`/assets/${id}.jpg`} className="card-img-top" alt={superhero} />
+                <img src={`./assets/${id}.jpg`} className="card-img-top" alt={superhero} />
                 <div className="card-body">
                     <h5 className="card-title">{superhero}</h5>
                     <ul className="list-group list-group-flush">

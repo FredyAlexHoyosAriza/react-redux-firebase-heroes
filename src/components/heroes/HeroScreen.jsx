@@ -47,7 +47,7 @@ const HeroScreen = () => {
         >
             <div className="row g-0">
                 <div className='col-md-4 p-2'>
-                    <img src={`/assets/${id}.jpg`} className="card-img-top" alt={superhero} />
+                    <img src={`./assets/${id}.jpg`} className="card-img-top" alt={superhero} />
                 </div>
                 <div className='col-md-8'>
                     <div className="card-body">
